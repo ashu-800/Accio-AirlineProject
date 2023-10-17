@@ -194,6 +194,7 @@ public class LoginFrame extends javax.swing.JFrame {
           
         }
         catch(ClassNotFoundException ex){
+            
             Logger.getLogger(AddCustomer.class.getName()).log(Level.SEVERE, null, ex);
         }
         catch(SQLException ex){
